@@ -8,4 +8,9 @@ describe('calculator spec', () => {
         expect(result).toBe(5);
     });
 
+    it('should substract two values', () =>{
+        const result= calculator.substrck(8,5);
+        expect(result).toBe(3);
+    })
+
 });
