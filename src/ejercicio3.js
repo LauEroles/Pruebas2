@@ -4,8 +4,9 @@
 const cuadrado=2;
 
 function cuadradoNumero(x){
-    console.log(Math.pow(x,cuadrado));
-
+    return Math.pow(x,cuadrado);
 }
 
-cuadradoNumero(5);
+module.exports={
+    cuadradoNumero
+}
