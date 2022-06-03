@@ -8,8 +8,10 @@ const divisor=2;
 
 function areaTriangulo(base, altura){
     let resultado= ((base*altura)/divisor);
-   return console.log("El area del triangulo es: " + resultado) ;
+   return  resultado;
     
 }
 
-areaTriangulo(4,9);
+module.exports={
+    areaTriangulo
+}
